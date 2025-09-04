@@ -1,9 +1,14 @@
+import Try from "./Try"
 
 function App() {
   
 
   return (
-    <h1>Learning React with vite</h1>
+    <>
+      <Try />
+      <h1>This is inside app.jsx </h1>
+      <p>this is a para</p>
+    </>
   )
 }
 

@@ -1,14 +1,13 @@
 import Try from "./Try"
 
-function App() {
-  
+const elem = (
+  <a href="https://google.com" target="_blank">Visit Google</a>
+)
 
+const username = "Harshit"
+function App() {
   return (
-    <>
-      <Try />
-      <h1>This is inside app.jsx </h1>
-      <p>this is a para</p>
-    </>
+    <h1>My name is | {username} </h1>
   )
 }
 
